@@ -18,7 +18,7 @@ class SubActivity : AppCompatActivity() {
         val randText = findViewById<TextView>(R.id.txt_randNum)
         randnum = (0..randnum).random()
         randText.setText(randnum.toString())
-
+        //hi
 
     }
     override fun onBackPressed(){
